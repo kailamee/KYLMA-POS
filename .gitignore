@@ -1,0 +1,23 @@
+# Visual Studio and .NET build output
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userprefs
+# Local database and deployment secrets
+*.mdf
+*.ldf
+*.bak
+*.dacpac
+*.secrets.json
+# Real configuration with secrets (keep App.config.example in git)
+KYLMA.WinForms/App.Release.config
+KYLMA.WinForms/connectionStrings.local.config
+# Logs and local media
+logs/
+*.log
+media/
+# OS files
+.DS_Store
+Thumbs.db

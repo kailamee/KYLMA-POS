@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="KYLMA.Data/KYLMA.Data.csproj" Id="8d2e9036-3ed5-4286-a7a6-2360f27c7275" />
+  <Project Path="KYLMA.Domain/KYLMA.Domain.csproj" Id="6d7c01dd-31f1-4103-be37-46be8408eb92" />
+  <Project Path="KYLMA.Services/KYLMA.Services.csproj" Id="ae7c0ef1-f6fb-430c-9733-bfef25fdd03f" />
+  <Project Path="KYLMA.WinForms/KYLMA.WinForms.csproj" Id="b595850a-bc3c-493e-b208-ba6dcfeb4896" />
+</Solution>

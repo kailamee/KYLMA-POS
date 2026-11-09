@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copy to App.config and fill in the placeholders. Never commit a real App.config with passwords. -->
+<configuration>
+  <connectionStrings>
+    <add name="Mangubat"
+         connectionString="Data Source=YOUR_SQL_SERVER;Initial Catalog=Mangubat;User ID=pos_app;Password=YOUR_SECRET;TrustServerCertificate=True;"
+         providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  <appSettings>
+    <add key="BusinessName" value="YOUR STORE NAME" />
+    <add key="BusinessAddress" value="YOUR STORE ADDRESS" />
+    <add key="BusinessPhone" value="YOUR PHONE" />
+    <add key="ReturnPolicy" value="YOUR RETURN POLICY" />
+    <add key="TaxRatePercent" value="12" />
+  </appSettings>
+</configuration>
